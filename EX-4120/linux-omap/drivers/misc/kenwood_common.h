@@ -1,0 +1,65 @@
+/*************************************************************************/
+/* Linux Device Driver framework                                         */
+/*-----------------------------------------------------------------------*/
+/* Copyright (C) 2011-2012 JVC KENWOOD CORPORATION. All Rights Reserved. */
+/*-----------------------------------------------------------------------*/
+/* Description: EX-4120 general purpose driver program                   */
+/* Date:        2011.09.26                                               */
+/* Author:      K.Matsuhashi                                             */
+/*************************************************************************/
+/*
+ * ioctl parameter
+ */
+#define KENWOOD_IOC_MAGIC       7
+#define KENWOOD_IOC_MCPU_PWRCTL         _IO(KENWOOD_IOC_MAGIC, 0)
+#define KENWOOD_IOC_MCPU_WAKEUP         _IO(KENWOOD_IOC_MAGIC, 1)
+#define KENWOOD_IOC_LCD_ON              _IO(KENWOOD_IOC_MAGIC, 2)
+#define KENWOOD_IOC_LCD_OFF             _IO(KENWOOD_IOC_MAGIC, 3)
+#define KENWOOD_IOC_BKL_ALL_ON          _IO(KENWOOD_IOC_MAGIC, 4)
+#define KENWOOD_IOC_BKL_ALL_OFF         _IO(KENWOOD_IOC_MAGIC, 5)
+#define KENWOOD_IOC_DVI_ON              _IO(KENWOOD_IOC_MAGIC, 6)
+#define KENWOOD_IOC_DVI_OFF             _IO(KENWOOD_IOC_MAGIC, 7)
+#define KENWOOD_IOC_VDAC_ON             _IO(KENWOOD_IOC_MAGIC, 8)
+#define KENWOOD_IOC_VDAC_OFF            _IO(KENWOOD_IOC_MAGIC, 9)
+#define KENWOOD_IOC_APSUB_WAKE_REQ      _IO(KENWOOD_IOC_MAGIC, 10)
+#define KENWOOD_IOC_APSUB_SLEEP_REQ     _IO(KENWOOD_IOC_MAGIC, 11)
+#define KENWOOD_IOC_APMAIN_PWRCTL       _IO(KENWOOD_IOC_MAGIC, 12)
+#define KENWOOD_IOC_SLCD_RST            _IO(KENWOOD_IOC_MAGIC, 13)
+#define KENWOOD_IOC_HEALTH_ON           _IO(KENWOOD_IOC_MAGIC, 14)
+#define KENWOOD_IOC_HEALTH_OFF          _IO(KENWOOD_IOC_MAGIC, 15)
+#define KENWOOD_IOC_RD_LCDREQ           _IO(KENWOOD_IOC_MAGIC, 16)
+#define KENWOOD_IOC_VIDEO_HS_POS        _IO(KENWOOD_IOC_MAGIC, 17)
+#define KENWOOD_IOC_VIDEO_HS_NEG        _IO(KENWOOD_IOC_MAGIC, 18)
+#define KENWOOD_IOC_USB_BUSPWR_ON       _IO(KENWOOD_IOC_MAGIC, 19)
+#define KENWOOD_IOC_USB_BUSPWR_OFF      _IO(KENWOOD_IOC_MAGIC, 20)
+#define KENWOOD_IOC_EMAC_10M    	_IO(KENWOOD_IOC_MAGIC, 21)
+#define KENWOOD_IOC_EMAC_100M		_IO(KENWOOD_IOC_MAGIC, 22)
+#define KENWOOD_IOC_VESA_800x600	_IO(KENWOOD_IOC_MAGIC, 23)
+#define KENWOOD_IOC_VESA_848x480	_IO(KENWOOD_IOC_MAGIC, 24)
+#define KENWOOD_IOC_KWD_800x480		_IO(KENWOOD_IOC_MAGIC, 25)
+#define	KENWOOD_IOC_SPI1_ENABLE		_IO(KENWOOD_IOC_MAGIC, 26)
+#define	KENWOOD_IOC_SPI1_DISABLE	_IO(KENWOOD_IOC_MAGIC, 27)
+#define	KENWOOD_IOC_BSP2_MAIN_ENABLE	_IO(KENWOOD_IOC_MAGIC, 28)
+#define	KENWOOD_IOC_BSP2_MAIN_DISABLE	_IO(KENWOOD_IOC_MAGIC, 29)
+#define KENWOOD_IOC_USB1_OVRCUR		_IO(KENWOOD_IOC_MAGIC, 30)
+#define KENWOOD_IOC_USB2_OVRCUR		_IO(KENWOOD_IOC_MAGIC, 31)
+#define KENWOOD_IOC_USB_TRANS_ON	_IO(KENWOOD_IOC_MAGIC, 32)
+#define KENWOOD_IOC_USB_TRANS_OFF	_IO(KENWOOD_IOC_MAGIC, 33)
+#define KENWOOD_IOC_AUDIO_ON		_IO(KENWOOD_IOC_MAGIC, 34)
+#define KENWOOD_IOC_AUDIO_OFF		_IO(KENWOOD_IOC_MAGIC, 35)
+#define KENWOOD_IOC_RD_MS_SEL		_IO(KENWOOD_IOC_MAGIC, 36)
+#define KENWOOD_IOC_PDONE_ON		_IO(KENWOOD_IOC_MAGIC, 37)
+#define KENWOOD_IOC_PDONE_OFF		_IO(KENWOOD_IOC_MAGIC, 38)
+#define KENWOOD_IOC_SLCD_GO		_IO(KENWOOD_IOC_MAGIC, 39)
+#define KENWOOD_IOC_POLSEL_IN		_IO(KENWOOD_IOC_MAGIC, 40)
+#define KENWOOD_IOC_POLSEL_OUT		_IO(KENWOOD_IOC_MAGIC, 41)
+#define KENWOOD_IOC_APSHLT_ON		_IO(KENWOOD_IOC_MAGIC, 42)
+#define KENWOOD_IOC_BKL_MAIN_ON         _IO(KENWOOD_IOC_MAGIC, 43)
+#define KENWOOD_IOC_BKL_MAIN_OFF        _IO(KENWOOD_IOC_MAGIC, 44)
+#define	KENWOOD_IOC_BSP2_SUB_ENABLE	_IO(KENWOOD_IOC_MAGIC, 45)
+#define	KENWOOD_IOC_BSP2_SUB_DISABLE	_IO(KENWOOD_IOC_MAGIC, 46)
+#define KENWOOD_IOC_HVSYNC_ON           _IO(KENWOOD_IOC_MAGIC, 47)
+#define KENWOOD_IOC_HVSYNC_OFF          _IO(KENWOOD_IOC_MAGIC, 48)
+#define KENWOOD_IOC_APSHLT_CTL          _IO(KENWOOD_IOC_MAGIC, 49)
+
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- qobject.cpp -->
+  <title>Qt 4.8: Obsolete Members for QObject</title>
+  <link rel="stylesheet" type="text/css" href="style/offline.css" />
+</head>
+<body>
+<div class="header" id="qtdocheader">
+  <div class="content"> 
+    <a href="index.html" class="qtref"><span>Qt Reference Documentation</span></a>
+  </div>
+  <div class="breadcrumb toolblock">
+    <ul>
+      <li class="first"><a href="index.html">Home</a></li>
+      <!--  Breadcrumbs go here -->
+<li><a href="modules.html">Modules</a></li>
+<li><a href="qtcore.html">QtCore</a></li>
+<li>QObject</li>
+    </ul>
+  </div>
+</div>
+<div class="content mainContent">
+<h1 class="title">Obsolete Members for QObject</h1>
+<p><b>The following class members are obsolete.</b> They are provided to keep old source code working. We strongly advise against using them in new code.</p>
+<p><ul><li><a href="qobject.html">QObject class reference</a></li></ul></p>
+<h2>Related Non-Members</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> T </td><td class="memItemRight bottomAlign"><b><a href="qobject-obsolete.html#qFindChild-2">qFindChild</a></b> ( const QObject * <i>obj</i>, const QString &amp; <i>name</i> = QString() )<tt> (obsolete)</tt></td></tr>
+<tr><td class="memItemLeft topAlign rightAlign"> QList&lt;T&gt; </td><td class="memItemRight bottomAlign"><b><a href="qobject-obsolete.html#qFindChildren-3">qFindChildren</a></b> ( const QObject * <i>obj</i>, const QString &amp; <i>name</i> = QString() )<tt> (obsolete)</tt></td></tr>
+</table>
+<h2>Related Non-Members</h2>
+<!-- $$$qFindChild$$$qFindChildconstQObject*constQString& -->
+<h3 class="fn"><a name="qFindChild-2"></a><span class="type">T</span> <span class="name">qFindChild</span> ( const <span class="type">QObject</span> * <i>obj</i>, const <span class="type"><a href="qstring.html">QString</a></span> &amp; <i>name</i> = QString() )</h3>
+<p>This function overloads <a href="qobject.html#qFindChildren">qFindChildren</a>().</p>
+<p>This function is equivalent to <i>obj</i>-&gt;<a href="qobject.html#findChild">findChild</a>&lt;T&gt;(<i>name</i>).</p>
+<p><b>Note:</b> This function was provided as a workaround for MSVC 6 which did not support member template functions. It is advised to use the other form in new code.</p>
+<p><b>See also </b><a href="qobject.html#findChild">QObject::findChild</a>().</p>
+<!-- @@@qFindChild -->
+<!-- $$$qFindChildren$$$qFindChildrenconstQObject*constQString& -->
+<h3 class="fn"><a name="qFindChildren-3"></a><span class="type"><a href="qlist.html">QList</a></span>&lt;<span class="type">T</span>&gt; <span class="name">qFindChildren</span> ( const <span class="type">QObject</span> * <i>obj</i>, const <span class="type"><a href="qstring.html">QString</a></span> &amp; <i>name</i> = QString() )</h3>
+<p>This function overloads <a href="qobject.html#qFindChildren">qFindChildren</a>().</p>
+<p>This function is equivalent to <i>obj</i>-&gt;<a href="qobject.html#findChildren">findChildren</a>&lt;T&gt;(<i>name</i>).</p>
+<p><b>Note:</b> This function was provided as a workaround for MSVC 6 which did not support member template functions. It is advised to use the other form in new code.</p>
+<p><b>See also </b><a href="qobject.html#findChildren">QObject::findChildren</a>().</p>
+<!-- @@@qFindChildren -->
+  <div class="ft">
+    <span></span>
+  </div>
+</div> 
+<div class="footer">
+    <p>
+      <acronym title="Copyright">&copy;</acronym> 2012 Nokia Corporation and/or its
+      subsidiaries. Documentation contributions included herein are the copyrights of
+      their respective owners.</p>
+    <br />
+    <p>
+      The documentation provided herein is licensed under the terms of the
+      <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation
+      License version 1.3</a> as published by the Free Software Foundation.</p>
+    <p>
+      Documentation sources may be obtained from <a href="http://www.qt-project.org">
+      www.qt-project.org</a>.</p>
+    <br />
+    <p>
+      Nokia, Qt and their respective logos are trademarks of Nokia Corporation 
+      in Finland and/or other countries worldwide. All other trademarks are property
+      of their respective owners. <a title="Privacy Policy"
+      href="http://en.gitorious.org/privacy_policy/">Privacy Policy</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- qwebpage.cpp -->
+  <title>Qt 4.8: ViewportAttributes Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/offline.css" />
+</head>
+<body>
+<div class="header" id="qtdocheader">
+  <div class="content"> 
+    <a href="index.html" class="qtref"><span>Qt Reference Documentation</span></a>
+  </div>
+  <div class="breadcrumb toolblock">
+    <ul>
+      <li class="first"><a href="index.html">Home</a></li>
+      <!--  Breadcrumbs go here -->
+<li><a href="modules.html">Modules</a></li>
+<li><a href="qtwebkit.html">QtWebKit</a></li>
+<li>ViewportAttributes</li>
+    </ul>
+  </div>
+</div>
+<div class="content mainContent">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">ViewportAttributes Class Reference</h1>
+<span class="small-subtitle">(QWebPage::ViewportAttributes)<br/></span>
+<!-- $$$ViewportAttributes-brief -->
+<p>The QWebPage::ViewportAttributes class describes hints that can be applied to a viewport. <a href="#details">More...</a></p>
+<!-- @@@ViewportAttributes -->
+<p>This class was introduced in Qt 4.7.</p>
+<ul>
+<li><a href="qwebpage-viewportattributes-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#ViewportAttributes">ViewportAttributes</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#ViewportAttributes-2">ViewportAttributes</a></b> ( const QWebPage::ViewportAttributes &amp; <i>other</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#dtor.ViewportAttributes">~ViewportAttributes</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> qreal </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#devicePixelRatio">devicePixelRatio</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> qreal </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#initialScaleFactor">initialScaleFactor</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#isUserScalable">isUserScalable</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#isValid">isValid</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> qreal </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#maximumScaleFactor">maximumScaleFactor</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> qreal </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#minimumScaleFactor">minimumScaleFactor</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QSize </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#size">size</a></b> () const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QWebPage::ViewportAttributes &amp; </td><td class="memItemRight bottomAlign"><b><a href="qwebpage-viewportattributes.html#operator-eq">operator=</a></b> ( const QWebPage::ViewportAttributes &amp; <i>other</i> )</td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$ViewportAttributes-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>The QWebPage::ViewportAttributes class describes hints that can be applied to a viewport.</p>
+<p>QWebPage::ViewportAttributes provides a description of a viewport, such as viewport geometry, initial scale factor with limits, plus information about whether a user should be able to scale the contents in the viewport or not, ie. by zooming.</p>
+<p>ViewportAttributes can be set by a web author using the viewport meta tag extension, documented at <a href="http://developer.apple.com/safari/library/documentation/appleapplications/reference/safariwebcontent/usingtheviewport/usingtheviewport.html">Safari Reference Library: Using the Viewport Meta Tag</a>.</p>
+<p>All values might not be set, as such when dealing with the hints, the developer needs to check whether the values are valid. Negative values denote an invalid qreal value.</p>
+</div>
+<!-- @@@ViewportAttributes -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$ViewportAttributes[overload1]$$$ViewportAttributes -->
+<h3 class="fn"><a name="ViewportAttributes"></a>ViewportAttributes::<span class="name">ViewportAttributes</span> ()</h3>
+<p>Constructs an empty <a href="qwebpage-viewportattributes.html">QWebPage::ViewportAttributes</a>.</p>
+<!-- @@@ViewportAttributes -->
+<!-- $$$ViewportAttributes$$$ViewportAttributesconstQWebPage::ViewportAttributes& -->
+<h3 class="fn"><a name="ViewportAttributes-2"></a>ViewportAttributes::<span class="name">ViewportAttributes</span> ( const <span class="type">QWebPage::ViewportAttributes</span> &amp; <i>other</i> )</h3>
+<p>Constructs a <a href="qwebpage-viewportattributes.html">QWebPage::ViewportAttributes</a> which is a copy from <i>other</i> .</p>
+<!-- @@@ViewportAttributes -->
+<!-- $$$~ViewportAttributes[overload1]$$$~ViewportAttributes -->
+<h3 class="fn"><a name="dtor.ViewportAttributes"></a>ViewportAttributes::<span class="name">~ViewportAttributes</span> ()</h3>
+<p>Destroys the <a href="qwebpage-viewportattributes.html">QWebPage::ViewportAttributes</a>.</p>
+<!-- @@@~ViewportAttributes -->
+<!-- $$$devicePixelRatio[overload1]$$$devicePixelRatio -->
+<h3 class="fn"><a name="devicePixelRatio"></a><span class="type"><a href="qtglobal.html#qreal-typedef">qreal</a></span> ViewportAttributes::<span class="name">devicePixelRatio</span> () const</h3>
+<!-- @@@devicePixelRatio -->
+<!-- $$$initialScaleFactor[overload1]$$$initialScaleFactor -->
+<h3 class="fn"><a name="initialScaleFactor"></a><span class="type"><a href="qtglobal.html#qreal-typedef">qreal</a></span> ViewportAttributes::<span class="name">initialScaleFactor</span> () const</h3>
+<p>Returns the initial scale of the viewport as a multiplier.</p>
+<!-- @@@initialScaleFactor -->
+<!-- $$$isUserScalable[overload1]$$$isUserScalable -->
+<h3 class="fn"><a name="isUserScalable"></a><span class="type">bool</span> ViewportAttributes::<span class="name">isUserScalable</span> () const</h3>
+<p>Determines whether or not the scale can be modified by the user.</p>
+<!-- @@@isUserScalable -->
+<!-- $$$isValid[overload1]$$$isValid -->
+<h3 class="fn"><a name="isValid"></a><span class="type">bool</span> ViewportAttributes::<span class="name">isValid</span> () const</h3>
+<p>Returns whether this is a valid <a href="qwebpage-viewportattributes.html">ViewportAttributes</a> or not.</p>
+<p>An invalid <a href="qwebpage-viewportattributes.html">ViewportAttributes</a> will have an empty <a href="qsize.html">QSize</a>, negative values for scale factors and true for the boolean isUserScalable.</p>
+<!-- @@@isValid -->
+<!-- $$$maximumScaleFactor[overload1]$$$maximumScaleFactor -->
+<h3 class="fn"><a name="maximumScaleFactor"></a><span class="type"><a href="qtglobal.html#qreal-typedef">qreal</a></span> ViewportAttributes::<span class="name">maximumScaleFactor</span> () const</h3>
+<p>Returns the maximum scale value of the viewport as a multiplier.</p>
+<!-- @@@maximumScaleFactor -->
+<!-- $$$minimumScaleFactor[overload1]$$$minimumScaleFactor -->
+<h3 class="fn"><a name="minimumScaleFactor"></a><span class="type"><a href="qtglobal.html#qreal-typedef">qreal</a></span> ViewportAttributes::<span class="name">minimumScaleFactor</span> () const</h3>
+<p>Returns the minimum scale value of the viewport as a multiplier.</p>
+<!-- @@@minimumScaleFactor -->
+<!-- $$$size[overload1]$$$size -->
+<h3 class="fn"><a name="size"></a><span class="type"><a href="qsize.html">QSize</a></span> ViewportAttributes::<span class="name">size</span> () const</h3>
+<p>Returns the size of the viewport.</p>
+<!-- @@@size -->
+<!-- $$$operator=[overload1]$$$operator=constQWebPage::ViewportAttributes& -->
+<h3 class="fn"><a name="operator-eq"></a><span class="type">QWebPage::ViewportAttributes</span> &amp; ViewportAttributes::<span class="name">operator=</span> ( const <span class="type">QWebPage::ViewportAttributes</span> &amp; <i>other</i> )</h3>
+<p>Assigns the given <a href="qwebpage-viewportattributes.html">QWebPage::ViewportAttributes</a> to this viewport hints and returns a reference to this.</p>
+<!-- @@@operator= -->
+</div>
+  <div class="ft">
+    <span></span>
+  </div>
+</div> 
+<div class="footer">
+    <p>
+      <acronym title="Copyright">&copy;</acronym> 2012 Nokia Corporation and/or its
+      subsidiaries. Documentation contributions included herein are the copyrights of
+      their respective owners.</p>
+    <br />
+    <p>
+      The documentation provided herein is licensed under the terms of the
+      <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation
+      License version 1.3</a> as published by the Free Software Foundation.</p>
+    <p>
+      Documentation sources may be obtained from <a href="http://www.qt-project.org">
+      www.qt-project.org</a>.</p>
+    <br />
+    <p>
+      Nokia, Qt and their respective logos are trademarks of Nokia Corporation 
+      in Finland and/or other countries worldwide. All other trademarks are property
+      of their respective owners. <a title="Privacy Policy"
+      href="http://en.gitorious.org/privacy_policy/">Privacy Policy</a></p>
+</div>
+</body>
+</html>
