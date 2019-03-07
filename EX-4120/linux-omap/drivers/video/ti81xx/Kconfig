@@ -1,2 +1,0 @@
-source "drivers/video/ti81xx/vpss/Kconfig"
-source "drivers/video/ti81xx/ti81xxfb/Kconfig"
