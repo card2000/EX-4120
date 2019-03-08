@@ -4,7 +4,6 @@ CC=gcc
 OUTDIR?=${PWD}
 
 TARGETS=kenwood_tool
-#TARGETS+=lib_test.so
 TARGETS:=$(TARGETS:%=${OUTDIR}/%)
 
 CFLAGS += -O2 -std=gnu99 -Os
