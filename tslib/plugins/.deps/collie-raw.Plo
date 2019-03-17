@@ -1,0 +1,121 @@
+collie-raw.lo: collie-raw.c \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/stdlib.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/features.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/predefs.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stddef.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitflags.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitstatus.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/endian.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/endian.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/byteswap.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/types.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/types.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/time.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/select.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/select.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/time.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/alloca.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/stdio.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/libio.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/_G_config.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/wchar.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stdarg.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/unistd.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/posix_opt.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/environments.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/confname.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/getopt.h \
+ ../config.h ../src/tslib-private.h ../src/tslib.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/time.h \
+ ../src/tslib-filter.h ../src/tslib.h
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/stdlib.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/features.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/predefs.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stddef.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitflags.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitstatus.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/endian.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/endian.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/byteswap.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/types.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/time.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/select.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/select.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/sigset.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/time.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/alloca.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/stdio.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/libio.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/_G_config.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/wchar.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stdarg.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/unistd.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/posix_opt.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/environments.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/bits/confname.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/getopt.h:
+
+../config.h:
+
+../src/tslib-private.h:
+
+../src/tslib.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/sys/time.h:
+
+../src/tslib-filter.h:
+
+../src/tslib.h:

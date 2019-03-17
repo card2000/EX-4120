@@ -1,0 +1,51 @@
+--- src/ts_open.c	2011-07-29 14:39:45.000000000 +0900
++++ src/ts_open.c	2012-04-10 09:22:36.940580461 +0900
+@@ -17,6 +17,7 @@
+ #include <unistd.h>
+ #endif
+ #include <sys/fcntl.h>
++#include <termios.h>
+ 
+ #include "tslib-private.h"
+ 
+@@ -27,6 +28,8 @@
+ 	struct tsdev *ts;
+ 	int flags = O_RDWR;
+ 
++	struct termios tty;
++
+ 	if (nonblock)
+ 		flags |= O_NONBLOCK;
+ 
+@@ -43,8 +46,30 @@
+ 			flags = nonblock ? (O_RDONLY | O_NONBLOCK) : O_RDONLY;
+ 			ts->fd = open(name, flags);
+ 		}
+-		if (ts->fd == -1)
++		if (ts->fd == -1) {
+ 			goto free;
++		}
++		else if( (0 == strcmp(name, "/dev/ttyO0"))
++			|| (0 == strcmp(name, "/dev/ttyO1"))
++			|| (0 == strcmp(name, "/dev/ttyO2"))
++			|| (0 == strcmp(name, "/dev/ttyO3")) ) { 
++			if(-1 == tcgetattr(ts->fd, &tty)) {
++				perror("tcgetattr:");
++			}
++			tty.c_iflag = IGNBRK | IGNPAR;
++			tty.c_oflag = 0;
++			tty.c_lflag = 0;
++			tty.c_line = 0;
++			tty.c_cc[VTIME] = 0;
++			tty.c_cc[VMIN] = 1;
++			tty.c_cflag = CS8 | CREAD | CLOCAL | HUPCL;
++			tty.c_cflag |= B115200;
++			if(-1 == tcsetattr(ts->fd, TCSAFLUSH, &tty)) {
++				perror("tcsetattr");
++			}
++		}
++		else {
++		}
+ 	}
+ 
+ 	return ts;

@@ -1,0 +1,27 @@
+font_8x16.o: font_8x16.c font.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/types.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/types.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm-generic/int-ll64.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/bitsperlong.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm-generic/bitsperlong.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/posix_types.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/stddef.h \
+ /opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/posix_types.h
+
+font.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/types.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/types.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm-generic/int-ll64.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/bitsperlong.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm-generic/bitsperlong.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/posix_types.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/linux/stddef.h:
+
+/opt/ti-sdk-am3517-evm-05.04.00.00/linux-devkit/bin/../arm-arago-linux-gnueabi/usr/include/asm/posix_types.h:
