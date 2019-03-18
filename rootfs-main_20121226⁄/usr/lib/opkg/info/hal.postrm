@@ -1,0 +1,2 @@
+	deluser haldaemon || true
+	delgroup haldaemon || true

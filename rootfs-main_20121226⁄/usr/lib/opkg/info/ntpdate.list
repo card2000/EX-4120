@@ -1,0 +1,2 @@
+/etc/network/if-up.d/ntpdate
+/usr/bin/ntpdate

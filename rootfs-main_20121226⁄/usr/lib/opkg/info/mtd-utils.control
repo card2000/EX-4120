@@ -1,0 +1,13 @@
+Package: mtd-utils
+Version: 1.4.4-r0.6
+Description: Tools for managing memory technology devices.
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2+
+Architecture: armv7a
+OE: mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: git://git.infradead.org/mtd-utils.git;protocol=git;tag=v1.4.4 file://add-exclusion-to-mkfs-jffs2-git-2.patch

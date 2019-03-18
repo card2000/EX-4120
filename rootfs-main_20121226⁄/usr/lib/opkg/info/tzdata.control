@@ -1,0 +1,13 @@
+Package: tzdata
+Version: 2011b-r9.0.6
+Description: Timezone data
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: unknown
+Architecture: all
+OE: tzdata
+Homepage: unknown
+Build: master/fea3a19
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Source: ftp://elsie.nci.nih.gov/pub/tzdata2011b.tar.gz;subdir=tzdata-2011b

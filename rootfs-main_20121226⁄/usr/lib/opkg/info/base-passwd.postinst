@@ -1,0 +1,10 @@
+	set -e
+
+	if [ ! -e $D/etc/passwd ] ; then
+		cp $D/usr/share/base-passwd/passwd.master $D/etc/passwd
+	fi
+
+	if [ ! -e $D/etc/group ] ; then
+		cp $D/usr/share/base-passwd/group.master $D/etc/group
+	fi
+	exit 0

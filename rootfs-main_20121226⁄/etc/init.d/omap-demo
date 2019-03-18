@@ -1,0 +1,84 @@
+#!/bin/sh
+
+/etc/init.d/devmem2 0x48004B48 w 0x2
+/etc/init.d/devmem2 0x48004B10 w 0x1
+/etc/init.d/devmem2 0x48004B00 w 0x2
+/etc/init.d/devmem2 0x50000014 > /etc/init.d/sgxrevision.txt
+SGX_REVISION="$( cat /etc/init.d/sgxrevision.txt | grep "Value at address" | awk -F: '{print $2}')"
+BUILDTYPE="$(cat /opt/gfxsdkdemos/gfxinstallinfo.txt)"
+
+echo $SGX_REVISION
+echo $BUILDTYPE
+
+if test $SGX_REVISION = 0x10201
+then
+  echo "SGX Revision is 121..."
+  if test $BUILDTYPE = "release3.x"
+  then
+    echo "installing 3.x SGX release user libraries"
+    cd /opt/gfxlibraries/gfx_rel_es3.x
+    ./install.sh --no-x
+  else if test $BUILDTYPE = "debug3.x"
+  then
+    echo "installing 3.x SGX debug user libraries"
+    cd /opt/gfxlibraries/gfx_dbg_es3.x
+    ./install.sh --no-x
+  else
+    echo "SGX revision is 121(OMAPES=3.x)  but found incompatible driver..."
+    echo "Notice: Install Stopped..."
+    exit 0
+  fi	
+  fi
+fi
+
+if test $SGX_REVISION = 0x10003
+then
+  echo "Silicon Revision is 2.x..."
+  if test $BUILDTYPE = "release2.x"
+  then
+    echo "installing 2.x SGX release user libraries"
+    cd /opt/gfxlibraries/gfx_rel_es2.x
+    ./install.sh --no-x	
+  else if test $BUILDTYPE = "debug2.x"
+  then
+    echo "installing 2.x SGX debug user libraries"
+    cd /opt/gfxlibraries/gfx_dbg_es2.x
+    ./install.sh --no-x
+  else
+    echo "SGX revision is 103 (OMAPES=2.x) but found incompatible driver..."
+    echo "Notice: Install Stopped..."
+    exit 0
+  fi
+  fi
+fi
+
+if test $SGX_REVISION = 0x10205
+then
+  echo "SGX Revision is 125..."
+  if test $BUILDTYPE = "release5.x"
+  then
+    echo "installing 5.x SGX release user libraries"
+    cd /opt/gfxlibraries/gfx_rel_es5.x
+    ./install.sh --no-x	
+  else if test $BUILDTYPE = "debug5.x"
+  then
+    echo "installing 5.x SGX debug user libraries"
+    cd /opt/gfxlibraries/gfx_dbg_es5.x
+    ./install.sh --no-x
+  else
+    echo "SGX revision is 125 (OMAPES=5.x) but found incompatible driver..."
+    echo "Notice: Install Stopped..."
+    exit 0
+  fi
+  fi
+fi
+
+if [[ -x /etc/init.d/rc.pvr ]]; then
+	cd /etc/init.d
+        ./rc.pvr start
+fi
+
+#if [[ -x /opt/gfxsdkdemos/ogles ]]; then
+#	cd /opt/gfxsdkdemos/ogles
+#	./rundemos.sh 1
+#fi

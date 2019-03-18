@@ -1,0 +1,10 @@
+while read link
+    do
+        case "$link" in
+            /*/*/*) to="../../bin/tinylogin";;
+            /bin/*) to="tinylogin";;
+            /*/*) to="../bin/tinylogin";;
+        esac
+        bn=`basename $link`
+        sh /usr/bin/update-alternatives --remove $bn $to
+    done < /etc/tinylogin.links

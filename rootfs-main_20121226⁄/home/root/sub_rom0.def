@@ -1,0 +1,49 @@
+[General]
+BootModelName="TS-990"
+FirmModelNameAddress="01BFF0"
+FirmModelNameMaxLength=16
+VersionAddress="01BF00"
+VersionMaxLength=16
+TransferTimeout=3000
+ChecksumTimeout=30000
+
+[Command]
+N0="Firmware Model Name"
+C0="FM"
+P0=
+T0=500
+
+N1="Firmware Size"
+C1="FS"
+P1="008000"
+T1=500
+
+N2="Start Address"
+C2="SA"
+P2="014000"
+T2=500
+
+N3="Block Size"
+C3="BS"
+P3=1024
+T3=500
+
+N4="Baud Rate"
+C4="BR"
+P4=115200
+T4=500
+
+N5="Firmware Version Confirmation"
+C5="VC"
+P5=
+T5=500
+
+N6="Firmware Version"
+C6="FV"
+P6=
+T6=500
+
+N7="Flash Erase Block-7"
+C7="EB"
+P7=9
+T7=30000

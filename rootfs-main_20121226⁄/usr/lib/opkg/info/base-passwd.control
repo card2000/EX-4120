@@ -1,0 +1,13 @@
+Package: base-passwd
+Version: 3.5.20-r1.6
+Description: Base system password/group files.
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: base-passwd
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: http://snapshot.debian.org/archive/debian/20110301T040946Z/pool/main/b/base-passwd/base-passwd_3.5.20.tar.gz file://nobash.patch file://root-home.patch file://mysql.patch

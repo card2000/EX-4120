@@ -1,0 +1,10 @@
+#! /bin/sh
+echo -n "Installing Kenwood module: "
+insmod /lib/modules/2.6.37/kernel/drivers/misc/kenwood_ts990.ko version=2
+if test $? -ne 0
+then
+insmod /lib/modules/2.6.37/kernel/drivers/misc/kenwood_ts990.ko
+fi
+echo "done"
+
+echo 0 > /proc/sys/kernel/hung_task_timeout_secs

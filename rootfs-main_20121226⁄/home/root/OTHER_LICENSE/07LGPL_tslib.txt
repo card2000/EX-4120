@@ -1,0 +1,13 @@
+tslib
+=====
+Copyright (C) 2001 Russell King. <linux@arm.linux.org.uk>
+Copyright (C) 2002 Nicolas Pitre
+Copyright (C) 2003 Chris Larson. <kergoth@handhelds.org>
+Copyright (C) 2003 Texas Instruments, Inc.
+Copyright (C) 2004 Michael Opdenacker <michaelo@handhelds.org>
+Copyright (C) 2005 Alberto Mardegan <mardy@users.sourceforge.net>
+Copyright (C) 2009 Michael Olbrich, Pengutronix e.K.
+Copyright (C) 2009 Fred Salabartan
+Copyright (C) 2010-2011 Frederik Sdun <frederik.sdun@googlemail.com>
+Copyright (C) 2010-2011 Thomas Zimmermann <ml@vdm-design.de>
+Copyright (C) 2010-2011 Simon Busch <morphis@gravedo.de>

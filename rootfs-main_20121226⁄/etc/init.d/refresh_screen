@@ -1,0 +1,9 @@
+echo -n "Starting Kenwood poweron screen data NAND to ram: "
+
+cp /usr/local/TS-990/bin/screen/pwron.message.bmp /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.800x600.message.screen /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.848x480.message.screen /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.848x480.message.progbar.screen /tmp/TS-990/screen/.
+
+echo "done"
+

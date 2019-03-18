@@ -1,0 +1,5 @@
+DES(des.cpp)
+============
+Copyright 1997-2005 Simon Tatham.
+
+This software is released under the MIT license.

@@ -1,0 +1,5 @@
+/bin/lsmod.26
+/sbin/rmmod.26
+/sbin/insmod.26
+/sbin/modprobe.26
+/sbin/modinfo.26

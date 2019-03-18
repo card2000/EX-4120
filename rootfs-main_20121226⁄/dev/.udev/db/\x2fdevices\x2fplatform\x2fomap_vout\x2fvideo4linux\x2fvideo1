@@ -1,0 +1,4 @@
+N:video1
+S:char/81:0
+S:v4l/by-path/platform-omap_vout-video-index0
+E:ID_PATH=platform-omap_vout

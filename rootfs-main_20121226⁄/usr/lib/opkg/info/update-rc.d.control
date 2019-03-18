@@ -1,0 +1,12 @@
+Package: update-rc.d
+Version: 0.7-r2.6
+Description: Manage symlinks in /etc/rcN.d
+Section: base
+Priority: standard
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2+
+Architecture: all
+OE: update-rc.d
+Homepage: unknown
+Build: master/fea3a19
+Source: file://update-rc.d file://add-verbose.patch

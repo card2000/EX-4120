@@ -1,0 +1,13 @@
+Package: initscripts
+Version: 1.0-r126-arago1.6
+Description: SysV init scripts
+Section: base
+Priority: required
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2+
+Architecture: armv7a
+OE: initscripts
+Homepage: unknown
+Build: master/fea3a19
+Depends: makedevs
+Source: file://functions file://halt file://ramdisk file://umountfs file://devices file://devpts.sh file://devpts file://hostname.sh file://mountall.sh file://banner file://finish.sh file://bootmisc.sh file://mountnfs.sh file://reboot file://checkfs.sh file://single file://sendsigs file://urandom file://rmnologin file://checkroot file://umountnfs.sh file://sysfs.sh file://device_table.txt file://populate-volatile.sh file://volatiles file://save-rtc.sh file://save-rtc-uclibc.sh file://alignment.sh

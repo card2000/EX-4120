@@ -1,0 +1,6 @@
+/etc/network/options
+/etc/hosts
+/etc/network/interfaces
+/etc/rpc
+/etc/protocols
+/etc/services

@@ -1,0 +1,18 @@
+#! /bin/sh
+
+echo -n "Starting Kenwood Updater: "
+
+if [ -f /usr/local/TS-990/bin/update_manager/UpdateMain.new ]
+then
+  echo "Updating Update Manager"
+  rm /usr/local/TS-990/bin/update_manager/UpdateMain
+  mv /usr/local/TS-990/bin/update_manager/UpdateMain.new /usr/local/TS-990/bin/update_manager/UpdateMain
+  if [ $? -eq 0 ]
+  then
+    echo "Complete"
+  fi
+fi
+
+/usr/local/TS-990/bin/update_manager/UpdateMain -qws &
+
+echo "done"

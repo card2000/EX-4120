@@ -1,0 +1,13 @@
+Package: libexpat1
+Version: 2.0.1-r3.0.6
+Description: Jim Clarkes XML parser library.
+Section: libs
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: MIT
+Architecture: armv7a
+OE: expat
+Homepage: http://expat.sf.net/
+Build: master/fea3a19
+Depends: libgcc1 (>= 4.5.3), libc6 (>= 2.12.2)
+Source: http://downloads.sourceforge.net/expat/expat-2.0.1.tar.gz;name=src file://autotools.patch

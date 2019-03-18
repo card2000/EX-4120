@@ -1,0 +1,13 @@
+Package: libusb-1.0-0
+Version: 1.0.8-r0.6
+Description: library to provide userspace access to USB devices
+Section: libs
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: LGPLv2.1
+Architecture: armv7a
+OE: libusb1
+Homepage: http://libusb.sf.net
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: http://downloads.sourceforge.net/libusb/libusb-1.0.8.tar.bz2;name=tar

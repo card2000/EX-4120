@@ -1,0 +1,14 @@
+Package: sysvinit
+Version: 2.86-r66-arago2.6
+Description: System-V like init.
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2+
+Architecture: armv7a
+OE: sysvinit
+Homepage: http://freshmeat.net/projects/sysvinit/
+Build: master/fea3a19
+Depends: sysvinit-inittab, libc6 (>= 2.12.2)
+Recommends: sysvinit-utils
+Source: ftp://ftp.cistron.nl/pub/people/miquels/sysvinit/sysvinit-2.86.tar.gz file://install.patch file://need file://provide file://inittab file://rcS-default file://rc file://rcS file://bootlogd.init

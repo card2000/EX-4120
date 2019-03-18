@@ -1,0 +1,3 @@
+/sbin/makedevs
+../bin/busybox 50
+/sbin/makedevs.makedevs 100

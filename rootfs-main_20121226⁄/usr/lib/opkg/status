@@ -1,0 +1,539 @@
+Package: busybox-mountall
+Version: 1.13.2-r42.4-arago3.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: module-init-tools-depmod
+Version: 3.12-r6.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: busybox-syslog
+Version: 1.13.2-r42.4-arago3.6
+Depends: busybox
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/default/busybox-syslog a6ca0459d1639b4cad15efc04d6c2f93
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.12.2-r10.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: opkg
+Version: 0.1.8+svnr609-r5-arago2.6
+Depends: libopkg0 (>= 0.1.8+svnr609), libc6 (>= 2.12.2)
+Provides: update-alternatives
+Replaces: opkg-nogpg, opkg-nogpg-nocurl
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.0.24.1-r0.6
+Depends: libasound2 (>= 1.0.24.1), libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.13.2-r42.4-arago3.6
+Depends: busybox-mountall, update-rc.d, libc6 (>= 2.12.2)
+Recommends: libgcc1, libgcc1, busybox-syslog
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: makedevs
+Version: 1.0.0-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libusb-0.1-4
+Version: 1:0.1.3-r0.6
+Depends: libusb-1.0-0 (>= 1.0.8), libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732463
+
+Package: modutils-initscripts
+Version: 1.0-r3.6
+Depends: update-rc.d
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: util-linux-ng-mount
+Version: 2.17-r36-arago1.6
+Depends: libblkid1 (>= 2.17), libuuid1 (>= 2.17), libc6 (>= 2.12.2)
+Provides: util-linux-mount
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333707031
+
+Package: util-linux-ng-sfdisk
+Version: 2.17-r36-arago1.6
+Depends: libc6 (>= 2.12.2)
+Provides: util-linux-sfdisk
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 946652511
+
+Package: libopkg0
+Version: 0.1.8+svnr609-r5-arago2.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.8-r0.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732459
+
+Package: libuuid1
+Version: 2.17-r36-arago1.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732695
+
+Package: base-files
+Version: 3.0.14-r100-arago2.6
+Provides:
+Status: install ok installed
+Architecture: am3517-evm
+Conffiles:
+ /etc/fstab fcfdf6cb2d8b134ba87f9519e13c58ef
+ /etc/hostname 5e6cadbef5ea2cb19ad5d9a7aca7e605
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.24.1-r0.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: sysvinit-inittab
+Version: 2.86-r66-arago2.6
+Provides:
+Status: install ok installed
+Architecture: am3517-evm
+Conffiles:
+ /etc/inittab 209710602cdfddabfb6d310f20333e70
+Installed-Time: 1333699271
+Auto-Installed: yes
+
+Package: dosfstools
+Version: 2.11-r2.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333707023
+
+Package: libstdc++6
+Version: 4.5.3-r10.6
+Depends: libc6 (>= 2.12.2), libgcc1 (>= 4.5.3)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1334038272
+
+Package: libdbus-1-3
+Version: 1.2.24-r20.1-arago2.6
+Depends: libc6 (>= 2.12.2)
+Recommends: dbus
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732354
+
+Package: tzdata
+Version: 2011b-r9.0.6
+Provides:
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/timezone 27fb759573780869d660f67032dc7efa
+ /etc/localtime 410c65079e6d14f4eedf50c19bd073f8
+Installed-Time: 1333732747
+
+Package: initscripts
+Version: 1.0-r126-arago1.6
+Depends: makedevs
+Provides:
+Status: install user installed
+Architecture: armv7a
+Conffiles:
+ /etc/device_table 19faee0e28d44f1840c39c4f944141a2
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libgobject-2.0-0
+Version: 2.24.1-r2.6
+Depends: libgthread-2.0-0 (>= 2.24.1), libc6 (>= 2.12.2), libglib-2.0-0 (>= 2.24.1)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732449
+
+Package: glibc-utils
+Version: 2.12.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 946652419
+
+Package: libblkid1
+Version: 2.17-r36-arago1.6
+Depends: libuuid1 (>= 2.17), libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732701
+
+Package: mtd-utils
+Version: 1.4.4-r0.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: udev-utils
+Version: 141-r30.6-arago5.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699271
+Auto-Installed: yes
+
+Package: dbus
+Version: 1.2.24-r20.1-arago2.6
+Depends: update-rc.d, libexpat1 (>= 2.0.1), libc6 (>= 2.12.2), libdbus-1-3 (>= 1.2.24)
+Provides: dbus-1
+Replaces: dbus-1
+Conflicts: dbus-1
+Status: install user installed
+Architecture: armv7a
+Conffiles:
+ /etc/dbus-1/system.conf 45cf86d3867654720b61faa8100d69f7
+ /etc/dbus-1/session.conf 673ab3651353e67a32593236f7410d2f
+Installed-Time: 1333732512
+
+Package: opkg-collateral
+Version: 1.0-r3.6
+Provides:
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/opkg/opkg.conf 7df7bcac0ec9573faba2d2d3b7e9bc3b
+Installed-Time: 1333699271
+
+Package: eject
+Version: 2.1.5-r1.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732368
+
+Package: libpng3
+Version: 1.2.44-r3.0.6
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.12.2)
+Provides: libpng3
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732395
+
+Package: hal
+Version: 0.5.14-r11.2+gitr0763f4900a32ac01d4b259fe010ab8ebfc83ad0f-arago1.6
+Depends: hal-info, udev-utils, libdbus-glib-1-2 (>= 0.86), libdbus-1-3 (>= 1.2.24), libgobject-2.0-0 (>= 2.24.1), libglib-2.0-0 (>= 2.24.1), libc6 (>= 2.12.2), libblkid1 (>= 2.17), libusb-0.1-4 (>= 0.1.3), libexpat1 (>= 2.0.1)
+Recommends: eject
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732767
+
+Package: fbset-modes
+Version: 0.1.0-r5.6
+Provides:
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/fb.modes b8de2484fab6925beba7fc258292ea2d
+Installed-Time: 1333705355
+
+Package: base-passwd
+Version: 3.5.20-r1.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: hal-info
+Version: 20090414-r0-arago1.6
+Provides:
+Status: install user installed
+Architecture: all
+Installed-Time: 1333732341
+
+Package: sysvinit-utils
+Version: 2.86-r66-arago2.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699271
+Auto-Installed: yes
+
+Package: alsa-utils-aplay
+Version: 1.0.24.2-r0-arago1.6
+Depends: libc6 (>= 2.12.2), libasound2 (>= 1.0.24.1)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: udev
+Version: 141-r30.6-arago5.6
+Depends: module-init-tools-depmod, udev-utils, update-rc.d, libc6 (>= 2.12.2)
+Provides: hotplug, udev-compat-wrapper
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699271
+
+Package: arago-feed-configs
+Version: 1.0-r12.6
+Recommends: opkg
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: module-init-tools
+Version: 3.12-r6.6
+Depends: module-init-tools-depmod, libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libgthread-2.0-0
+Version: 2.24.1-r2.6
+Depends: libc6 (>= 2.12.2), libglib-2.0-0 (>= 2.24.1)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732440
+
+Package: libattr1
+Version: 2.4.44-r4.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732715
+
+Package: sysvinit-pidof
+Version: 2.86-r66-arago2.6
+Depends: sysvinit-utils
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699271
+
+Package: gawk
+Version: 3.1.4-r4.6
+Depends: gawk-common, libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 191
+
+Package: update-rc.d
+Version: 0.7-r2.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: tinylogin
+Version: 1.4-r7.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699271
+
+Package: libcap2
+Version: 2.20-r0.6
+Depends: libattr1 (>= 2.4.44), libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732717
+
+Package: libz1
+Version: 1.2.3-r7.0.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 2.24.1-r2.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732412
+
+Package: netbase
+Version: 4.21-r50-arago3.6
+Depends: update-rc.d
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/network/options a3dfe287e7258722afb9cf254b31815e
+ /etc/hosts 27acad957c7cded40cd6ac50d23ddc66
+ /etc/network/interfaces 1d96879c3e73df97b868c9f420ee3140
+ /etc/rpc f0b6f6352bf886623adc04183120f83b
+ /etc/protocols e1b2c07d83ff5322a6353945a5c4b7e6
+ /etc/services 8a04f87ad04f4a1d3c7e6ca12e07290d
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: fbset
+Version: 2.1-r4.6
+Depends: libc6 (>= 2.12.2)
+Recommends: fbset-modes
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333705360
+
+Package: libgcc1
+Version: 4.5.3-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.0.1-r3.0.6
+Depends: libgcc1 (>= 4.5.3), libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732388
+
+Package: libasound2
+Version: 1.0.24.1-r0.6
+Depends: alsa-conf-base, libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1333699270
+Auto-Installed: yes
+
+Package: libpng12-0
+Version: 1.2.44-r3.0.6
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.12.2)
+Provides: libpng3
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333704132
+
+Package: ntpdate
+Version: 4.2.6p3-r1.6
+Depends: libc6 (>= 2.12.2), libcap2 (>= 2.20)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732753
+
+Package: sysvinit
+Version: 2.86-r66-arago2.6
+Depends: sysvinit-inittab, libc6 (>= 2.12.2)
+Recommends: sysvinit-utils
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333699271
+
+Package: libdbus-glib-1-2
+Version: 0.86-r2.1.6
+Depends: libdbus-1-3 (>= 1.2.24), libgobject-2.0-0 (>= 2.24.1), libgthread-2.0-0 (>= 2.24.1), libc6 (>= 2.12.2), libglib-2.0-0 (>= 2.24.1)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732482
+
+Package: gawk-common
+Version: 3.1.4-r4.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 186
+
+Package: libfreetype6
+Version: 2.4.3-r1-arago1.6
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.12.2)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1333732426
+

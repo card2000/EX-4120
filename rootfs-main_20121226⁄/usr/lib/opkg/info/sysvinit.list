@@ -1,0 +1,11 @@
+/sbin/poweroff.sysvinit
+/etc/default/rcS
+/sbin/reboot.sysvinit
+/etc/init.d/rc
+/bin/mountpoint.sysvinit
+/sbin/telinit
+/sbin/init.sysvinit
+/sbin/runlevel
+/etc/init.d/rcS
+/sbin/shutdown.sysvinit
+/sbin/halt.sysvinit

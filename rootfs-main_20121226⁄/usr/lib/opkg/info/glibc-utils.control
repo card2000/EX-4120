@@ -1,0 +1,13 @@
+Package: glibc-utils
+Version: 2.12.2-r10.6
+Description: glibc: misc utilities like iconf, local, gencat, tzselect, rpcinfo, ...
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: LGPLv2.1+
+Architecture: armv7a
+OE: external-toolchain-arago
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: file://SUPPORTED

@@ -1,0 +1,3 @@
+/dev/mem opened.
+Memory mapped at address 0x4030d000.
+Value at address 0x50000014 (0x4030d014): 0x10201

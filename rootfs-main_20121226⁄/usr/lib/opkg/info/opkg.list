@@ -1,0 +1,7 @@
+/etc/rcS.d/S40configure
+/usr/share/opkg/intercept/update-modules
+/usr/bin/update-alternatives
+/usr/bin/opkg-key
+/usr/share/opkg/intercept/depmod
+/usr/bin/opkg-cl
+/usr/share/opkg/intercept/ldconfig

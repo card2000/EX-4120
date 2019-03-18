@@ -1,0 +1,5 @@
+/usr/share/alsa/pcm/dsnoop.conf
+/usr/share/alsa/pcm/default.conf
+/usr/share/alsa/alsa.conf
+/usr/share/alsa/cards/aliases.conf
+/usr/share/alsa/pcm/dmix.conf

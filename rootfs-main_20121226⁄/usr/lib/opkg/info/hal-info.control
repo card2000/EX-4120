@@ -1,0 +1,12 @@
+Package: hal-info
+Version: 20090414-r0-arago1.6
+Description: Hardware Abstraction Layer device information
+Section: unknown
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2 AFLv2.1
+Architecture: all
+OE: hal-info
+Homepage: http://hal.freedesktop.org/
+Build: master/fea3a19
+Source: http://hal.freedesktop.org/releases/hal-info-20090414.tar.gz

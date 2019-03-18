@@ -1,0 +1,13 @@
+Package: modutils-initscripts
+Version: 1.0-r3.6
+Description: modutils configuration files
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: PD
+Architecture: armv7a
+OE: modutils-initscripts
+Homepage: unknown
+Build: master/fea3a19
+Depends: update-rc.d
+Source: file://modutils.sh

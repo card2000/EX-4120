@@ -1,0 +1,13 @@
+Package: libstdc++6
+Version: 4.5.3-r10.6
+Description: Version 1.0-r10 of package external-toolchain-arago
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv3+ with GCC RLE
+Architecture: armv7a
+OE: external-toolchain-arago
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2), libgcc1 (>= 4.5.3)
+Source: file://SUPPORTED

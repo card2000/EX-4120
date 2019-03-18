@@ -1,0 +1,8 @@
+N:mmcblk0
+S:block/179:0
+S:disk/by-id/mmc-SD02G_0x7c704ae4
+S:disk/by-path/platform-mmc0:0007
+W:3
+E:ID_NAME=SD02G
+E:ID_SERIAL=0x7c704ae4
+E:ID_PATH=platform-mmc0:0007

@@ -1,0 +1,6 @@
+/usr/sbin/mkdosfs
+/usr/sbin/mkfs.vfat
+/usr/sbin/fsck.vfat
+/usr/sbin/fsck.msdos
+/usr/sbin/mkfs.msdos
+/usr/sbin/dosfsck

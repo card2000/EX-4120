@@ -1,0 +1,17 @@
+N:mmcblk0p2
+S:block/179:2
+S:disk/by-id/mmc-SD02G_0x7c704ae4-part2
+S:disk/by-path/platform-mmc0:0007-part2
+S:disk/by-uuid/9f75c6f2-f082-47f8-9229-9a85ada13b15
+S:disk/by-label/rootfs
+W:20
+E:ID_NAME=SD02G
+E:ID_SERIAL=0x7c704ae4
+E:ID_PATH=platform-mmc0:0007
+E:ID_FS_USAGE=filesystem
+E:ID_FS_TYPE=ext4
+E:ID_FS_VERSION=1.0
+E:ID_FS_UUID=9f75c6f2-f082-47f8-9229-9a85ada13b15
+E:ID_FS_UUID_ENC=9f75c6f2-f082-47f8-9229-9a85ada13b15
+E:ID_FS_LABEL=rootfs
+E:ID_FS_LABEL_ENC=rootfs

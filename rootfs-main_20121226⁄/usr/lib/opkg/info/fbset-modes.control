@@ -1,0 +1,12 @@
+Package: fbset-modes
+Version: 0.1.0-r5.6
+Description: Default display timings and resolutions for fbset
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: MIT
+Architecture: all
+OE: fbset-modes
+Homepage: unknown
+Build: master/fea3a19
+Source: file://fb.modes

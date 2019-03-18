@@ -1,0 +1,3 @@
+/sbin/insmod
+../bin/busybox 50
+/sbin/insmod.26 60

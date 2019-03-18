@@ -1,0 +1,13 @@
+status_position() {
+  if [ $1 -gt 0 ]
+  then
+    echo $1 > /boot/fbsplash/fbsplash
+  fi
+}
+
+splash_end() {
+  if [ -p /boot/fbsplash/fbsplash ]
+  then
+    echo exit > /boot/fbsplash/fbsplash
+  fi
+}

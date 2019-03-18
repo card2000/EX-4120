@@ -1,0 +1,5 @@
+#!/bin/sh
+update-alternatives --remove mountpoint mountpoint.sysvinit
+update-alternatives --remove halt halt.sysvinit
+update-alternatives --remove reboot reboot.sysvinit
+update-alternatives --remove shutdown shutdown.sysvinit

@@ -1,0 +1,103 @@
+#!/bin/sh
+
+# PowerVR SGX DDK for Embedded Linux - installation script
+#
+# Copyright	2004-2006 by Imagination Technologies Limited.
+#				All rights reserved.  No part of this software, either
+#				material or conceptual may be copied or distributed,
+#				transmitted, transcribed, stored in a retrieval system
+#				or translated into any human or computer language in any
+#				form by any means, electronic, mechanical, manual or
+#				other-wise, or disclosed to third parties without the
+#				express written permission of Imagination Technologies
+#				Limited, Unit 8, HomePark Industrial Estate,
+#				King's Langley, Hertfordshire, WD4 8LZ, U.K.
+
+# Auto-generated for omap3430_linux from embedded.pj sgxddk_1.7@783851
+#
+
+load_pvr()
+{
+		# Load the PVR Services module.
+	#
+	
+	if ! /sbin/modprobe -q pvrsrvkm; then
+		echo "Module pvrsrvkm failed to load. Retrying."
+		if [ -z $depmod_has_been_run ]; then
+			if [ -e /sbin/depmod ]; then
+				echo "Running /sbin/depmod"
+				/sbin/depmod && depmod_has_been_run=1
+			fi
+		fi
+		if ! /sbin/modprobe -q pvrsrvkm; then return; fi
+	fi
+
+	# Delete the device for PVR services device and recreate with the
+	# correct major number.
+	#
+	pvr_maj=`grep "pvrsrvkm$" /proc/devices | cut -b1,2,3`
+	/bin/rm -f /dev/pvrsrvkm
+	/bin/mknod /dev/pvrsrvkm c $pvr_maj 0
+	/bin/chmod 666 /dev/pvrsrvkm
+
+	# Run the PVR initialisation server
+	if ! /usr/local/bin/pvrsrvinit; then return; fi
+
+	# Load remaining modules.
+	#
+			
+	if ! /sbin/modprobe -q omaplfb $PVR_DISPLAY_PARAMS; then
+		echo "Module omaplfb failed to load. Retrying."
+		if [ -z $depmod_has_been_run ]; then
+			if [ -e /sbin/depmod ]; then
+				echo "Running /sbin/depmod"
+				/sbin/depmod && depmod_has_been_run=1
+			fi
+		fi
+		if ! /sbin/modprobe -q omaplfb $PVR_DISPLAY_PARAMS; then echo "Continuing to load PowerVR services"; omaplfb_failed=1; fi
+	fi
+				
+	echo "Loaded PowerVR consumer services."
+	return 0;
+}
+
+unload_pvr()
+{
+	# Unload modules.  This won't pick up cases where a further module
+	# has been added which has a dependency on one of these modules.
+	#
+	if rmmod omaplfb; then :; else echo "Warning: Could not unload omaplfb"; fi
+
+	# Unload the PVR Services module.
+	#
+	if rmmod pvrsrvkm; then :; else return 1; fi
+	
+	
+	echo "Unloaded PowerVR consumer services."
+	return 0;
+}
+
+# Deal with the type of invocation we get.
+#
+case "$1" in
+"start")
+	load_pvr
+	fbset -rgba 8/16,8/8,8/0,8/24
+	;;
+stop)
+	if ! unload_pvr; then
+		echo "Couldn't unload modules" >&2;
+	fi
+	;;
+reload|restart)
+	if unload_pvr; then
+		load_pvr
+	else
+		echo "Couldn't unload modules" >&2;
+	fi
+	;;
+*)
+	echo "$0: unknown argument $1." >&2;
+	;;
+esac
+

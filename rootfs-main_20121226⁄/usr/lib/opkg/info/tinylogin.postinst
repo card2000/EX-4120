@@ -1,0 +1,7 @@
+# If we are not making an image we create links for the utilities that doesn't exist
+    # so the update-alternatives script will get the utilities it needs
+    # (update-alternatives have no problem replacing links later anyway)
+    if test "x$D" = "x"; then while read link; do if test ! -h "$link"; then case "$link" in /*/*/*) to="../../bin/tinylogin";; /bin/*) to="tinylogin";; /*/*) to="../bin/tinylogin";; esac; ln -s $to $link; fi; done </etc/tinylogin.links; fi
+
+    # This adds the links, remember that this has to work when building an image too, hence the $D
+    while read link; do case "$link" in /*/*/*) to="../../bin/tinylogin";; /bin/*) to="tinylogin";; /*/*) to="../bin/tinylogin";; esac; bn=`basename $link`; update-alternatives --install $link $bn $to 60; done <$D/etc/tinylogin.links

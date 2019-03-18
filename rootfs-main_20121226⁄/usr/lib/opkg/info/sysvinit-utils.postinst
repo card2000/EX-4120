@@ -1,0 +1,4 @@
+#!/bin/sh
+update-alternatives --install /usr/bin/last last last.sysvinit 200
+update-alternatives --install /usr/bin/mesg mesg mesg.sysvinit 200
+update-alternatives --install /usr/bin/wall wall wall.sysvinit 200

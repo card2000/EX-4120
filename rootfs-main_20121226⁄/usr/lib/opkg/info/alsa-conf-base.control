@@ -1,0 +1,12 @@
+Package: alsa-conf-base
+Version: 1.0.24.1-r0.6
+Description: Alsa sound library
+Section: libs/multimedia
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: LGPLv2.1
+Architecture: armv7a
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Build: master/fea3a19
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.24.1.tar.bz2 file://fix-tstamp-declaration.patch file://fix_libmath.patch

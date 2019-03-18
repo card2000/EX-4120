@@ -1,0 +1,13 @@
+Package: netbase
+Version: 4.21-r50-arago3.6
+Description: This package provides the necessary infrastructure for basic TCP/IP based networking.
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: netbase
+Homepage: unknown
+Build: master/fea3a19
+Depends: update-rc.d
+Source: http://developer.irexnet.com/pub/iOn/Sources/1.0/Third%20party/all/netbase-4.21.tar.gz file://options file://init file://hosts file://interfaces file://if-pre-up.d file://if-up.d file://if-down.d file://if-post-down.d

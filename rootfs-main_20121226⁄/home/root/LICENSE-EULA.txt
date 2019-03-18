@@ -1,0 +1,56 @@
+SOFTWARE LICENSE AGREEMENT
+
+This Software License Agreement (hereinafter referred to as the "Agreement") defines and stipulates the terms and conditions by you or others (hereinafter referred to as "Users") to use the software that is intended to be embedded in the KENWOOD TS-990S transceiver (hereinafter referred to as the "Licensed Software") designed and distributed by JVC KENWOOD Corporation (hereinafter referred to as the "Licensor"), and owned by and titled to the Licensor. 
+Users have read through and agreed to the terms and conditions contained herein to use Licensed Software.
+This Agreement deems to have been entered and enforced by and between the Licensor and the Users upon use of the KENWOOD TS-990S transceiver with Licensed Software embedded by the Users. 
+Licensed Software may contain the software directly or indirectly licensed to the Licensor by one or more of those who reserve and own all copyrights and other intellectual property rights.
+Some of those who reserve and own all copyrights and other intellectual property rights define and stipulate the terms and conditions to use their respective software apart from this Agreement.
+The terms and conditions contained in this Agreement shall not be applied to such software; hence, Users shall read through and agree to the terms and conditions that can be viewed from the Important Notices concerning Free Open Software in Advanced Menu 29 of the KENWOOD TS-990S transceiver. 
+
+Article 1 General Provision 
+The Licensor shall grant to the Users a non-exclusive and non-transferable license, exempting the exceptional case as defined in section 1 of article 1, to use Licensed Software in the country or region where the Users reside or use the KENWOOD TS-990S transceiver. 
+
+Article 2 License Grant
+1   The license granted under the terms and conditions herein shall be the right to use the Licensed Software embedded in the KENWOOD TS-990S transceiver by the Users within the scope of UsersÅf personal use. 
+2   Users shall have a right to use Licensed Software in accordance with the instruction manual supplied with the KENWOOD TS-990S transceiver.
+3   Users may transfer to a third party (hereinafter referred to as ÅgTransferorÅh) the KENWOOD TS-990S transceiver with the Licensed Software embedded, provided, however, that the Users shall transfer to the Transferor all original and duplicated Licensed Software and the relevant documents thereof and have agreed on and accepted the terms and conditions contained in this Agreement by the Transferor. 
+
+Article 3 Prohibitions to the Licensed Software 
+1   Users shall not use or copy in whole or in part, the Licensed Software in a manner violating the laws and regulations for copyrights  and other applicable intellectual property rights laws and regulations. 
+2   Users shall not, whether  commercially or not, sell, distribute, rent, lease, license or sublicense the Licensed Software whatsoever.
+3   Users shall not duplicate, copy, revise, change, translate, merge, or analyze the code such as by decompiling, reverse engineering, disassembling, etc. in whole or in part, the Licensed Software thereof.
+
+Article 4 Rights Pertaining to the Licensed Software 
+Title to and ownership of any rights including but not limited to the copyrights and other intellectual property rights for the Licensed Software and the relevant documents thereof are reserved for the Licensor or those who licensed to the Licensor and agreed to the sublicense by the Licensor to the Users (hereinafter referred to as "Original Rights-holder"), and Users may not reserve any rights except the right to use the Licensed Software and the relevant documents thereof under the terms and conditions contained herein. 
+
+Article 5 Indemnification of the Licensor 
+1   Neither the Licensor nor the Original Rights-holder shall be liable for any damage of Users or any third parties arising out of the Users' exercise of the right of use granted by this Agreement. Unless any law or regulation is in force hereof, this article shall not apply to the Users' exercise of the right. 
+2   The Licensor shall not warrant the merchantability, convertibility and consistency with certain objectives of the Licensed Software. 
+
+Article 6 Liability to Third Parties 
+In the event that any dispute has arisen with any third parties resulting from an infringement upon a copyright, patent, or any other intellectual property right that was caused by the Users' use of the Licensed Software, Users shall settle such dispute at their own cost and prevent the Licensor and the Original Rights-holder from any inconvenience that may occur. 
+
+Article 7 Confidentiality 
+Users shall treat as strictly confidential the Licensed Software provided under this Agreement and the information such as the relevant documents thereof, but exempting those which became known as the public domain, and shall not disclose nor provide such confidential information to any third parties without prior written consent of the Licensor. 
+
+Article 8 Termination 
+In the event that the Users fall under any of the events hereinafter, the Licensor reserves the right to terminate this Agreement and claim the Users to compensate for the Licensor's damage hereof: 
+(1) If the Users violate any provision of this Agreement; or 
+(2) If a petition has been filed against the Users for an attachment, provisional attachment, provisional disposition, or any other compulsory execution. 
+
+Article 9 Destruction of the Licensed Software 
+In the event that this Agreement is terminated pursuant to the provisions of Article 8, Users shall discard the Licensed Software, relevant documents and any duplicates thereof and delete any Licensed Software from a PC or storage device with the Licensed Software saved within two (2) weeks from the date of the termination by the Licensor. 
+
+Article 10 Protection of Copyright 
+1   Copyrights and all intellectual property rights for the Licensed Software shall be titled to and owned by the Licensor and the Original Rights-holder, and in no event shall copyrights and intellectual property rights be under the ownership of the Users. 
+2   Whenever the Users use the KENWOOD TS-990S transceiver, the Users shall comply with any laws and regulations relating to the copyrights and intellectual property rights. 
+
+Article 11 Export Restrictions
+1   Users shall fully comply with any export and import laws and regulations of the relative country or region if the Users intend to export or re-export or bring any PC and/or the KENWOOD TS-990S transceiver or any storage device installed with the Licensed Software outside of the country or region of the Users, whether directly or indirectly, and shall obtain all required authorizations or licenses in advance. 
+2   Users shall accept that the Licensed Software shall be subject to the export laws and restrictions adopted by Japan and the United States of America. 
+3   Users shall agree to be bound by all international and domestic laws and regulations including but not limited to the export control laws of the United States of America, the rules and regulations relating to the end-user stipulated and regulated by the US, Japanese, and other governments, the use by the end-user, and the countries and region to be exported. 
+
+Article 12 Miscellaneous 
+1   In the event that any part of this Agreement becomes invalid and null by the exercise of law, the residual provisions of this Agreement shall continue to be in force. 
+2   Any issue regarding matters not specified in this Agreement or the interpretation of the terms and conditions of this Agreement, etc., shall be resolved in good faith by discussions between the Licensor and the Users. 
+3   The Licensor and the Users hereby agree that this Agreement is governed and interrupted by the laws of Japan, and any dispute arising out of, and relation to the rights and obligations under this Agreement shall be submitted to the exclusive jurisdiction of the Tokyo District for its first instance. 

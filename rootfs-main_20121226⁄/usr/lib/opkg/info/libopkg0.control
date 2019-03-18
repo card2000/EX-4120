@@ -1,0 +1,13 @@
+Package: libopkg0
+Version: 0.1.8+svnr609-r5-arago2.6
+Description: Opkg Package Manager Library
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: opkg
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: svn://opkg.googlecode.com/svn;module=trunk;proto=http file://configure file://0001-opkg_message-send-Collected-errors-messages-to-stder.patch

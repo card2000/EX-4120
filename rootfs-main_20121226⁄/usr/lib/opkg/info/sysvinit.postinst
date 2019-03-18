@@ -1,0 +1,7 @@
+#!/bin/sh
+update-alternatives --install /bin/mountpoint mountpoint mountpoint.sysvinit 200
+update-alternatives --install /sbin/halt halt halt.sysvinit 200
+update-alternatives --install /sbin/reboot reboot reboot.sysvinit 200
+update-alternatives --install /sbin/poweroff poweroff poweroff.sysvinit 200
+update-alternatives --install /sbin/shutdown shutdown shutdown.sysvinit 200
+update-alternatives --install /sbin/init init /sbin/init.sysvinit 60

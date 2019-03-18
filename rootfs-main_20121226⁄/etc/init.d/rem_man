@@ -1,0 +1,6 @@
+#! /bin/sh
+
+echo -n "Starting Kenwood Remote Manager: "
+/usr/local/TS-990/bin/remote_manager/rem_man.main &
+echo "done"
+

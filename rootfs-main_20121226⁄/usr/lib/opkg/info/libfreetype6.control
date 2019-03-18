@@ -1,0 +1,13 @@
+Package: libfreetype6
+Version: 2.4.3-r1-arago1.6
+Description: Freetype font rendering library
+Section: libs
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: freetype
+Homepage: unknown
+Build: master/fea3a19
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.12.2)
+Source: http://downloads.sourceforge.net/freetype/freetype-2.4.3.tar.bz2 file://no-hardcode.patch file://libtool-tag.patch

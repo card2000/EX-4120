@@ -1,0 +1,17 @@
+N:mmcblk0p1
+S:block/179:1
+S:disk/by-id/mmc-SD02G_0x7c704ae4-part1
+S:disk/by-path/platform-mmc0:0007-part1
+S:disk/by-uuid/F4BE-8DD4
+S:disk/by-label/BOOT
+W:29
+E:ID_NAME=SD02G
+E:ID_SERIAL=0x7c704ae4
+E:ID_PATH=platform-mmc0:0007
+E:ID_FS_USAGE=filesystem
+E:ID_FS_TYPE=vfat
+E:ID_FS_VERSION=FAT16
+E:ID_FS_UUID=F4BE-8DD4
+E:ID_FS_UUID_ENC=F4BE-8DD4
+E:ID_FS_LABEL=BOOT
+E:ID_FS_LABEL_ENC=BOOT

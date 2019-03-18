@@ -1,0 +1,12 @@
+IMPORTANT NOTICES CONCERNING THE SOFTWARE
+
+The software embedded in this transceiver consists of a multiple number of and individual software components. Title to and ownership of copyrights for each software component is reserved for JVC KENWOOD Corporation and the respective bona fide holder.
+This product employs the software component in accordance with the End User License Agreement (hereinafter referred to as the "EULA") stipulated by
+JVC KENWOOD Corporation and/or the respective bona fide holder.
+There is free software stipulated and governed by the "EULA", and this, a distribution condition of the software component in the executable format under the terms and conditions contained in the GNU General Public License or Lesser General Public License (hereinafter referred to as the ÅgGPL/LGPLÅh), requires to make the source code for the relevant software components available.
+
+Access the URL below for details of the software component stipulated in the "GPL/LPGL".
+
+URL:
+http://www2.jvckenwood.com/gpl/
+http://www2.jvckenwood.com/gpl/j.html

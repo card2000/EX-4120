@@ -1,0 +1,10 @@
+echo -n "Starting Kenwood screen data extraction: "
+
+tar zxf /usr/local/TS-990/bin/screen/screen.tar.gz -C /
+cp /usr/local/TS-990/bin/screen/pwron.message.bmp /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.800x600.message.screen /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.848x480.message.screen /tmp/TS-990/screen/.
+cp /usr/local/TS-990/bin/screen/pwron.848x480.message.progbar.screen /tmp/TS-990/screen/.
+
+echo "done"
+

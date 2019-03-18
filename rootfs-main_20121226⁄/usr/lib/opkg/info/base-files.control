@@ -1,0 +1,12 @@
+Package: base-files
+Version: 3.0.14-r100-arago2.6
+Description: Miscellaneous files for the base system.
+Section: base
+Priority: required
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2+
+Architecture: am3517-evm
+OE: base-files
+Homepage: unknown
+Build: master/fea3a19
+Source: file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://profile.d file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/BSD file://licenses/GPL-2 file://licenses/GPL-3 file://licenses/LGPL-2 file://licenses/LGPL-2.1 file://licenses/LGPL-3 file://licenses/GFDL-1.2 file://licenses/Artistic

@@ -1,0 +1,13 @@
+Package: libcap2
+Version: 2.20-r0.6
+Description: Libcap is a library for getting and setting POSIX.1e (formerly POSIX 6) draft 15 capabilities.
+Section: libs
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPL
+Architecture: armv7a
+OE: libcap2
+Homepage: unknown
+Build: master/fea3a19
+Depends: libattr1 (>= 2.4.44), libc6 (>= 2.12.2)
+Source: http://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.20.tar.bz2 file://make.patch

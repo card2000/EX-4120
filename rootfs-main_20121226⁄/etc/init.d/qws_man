@@ -1,0 +1,10 @@
+#! /bin/sh
+
+echo -n "Starting Kenwood QWS server: "
+export TSLIB_CALIBFILE=/etc/pointercal
+export TSLIB_CONFFILE=/etc/ts.conf
+export TSLIB_PLUGINDIR=/usr/lib/ts
+export TSLIB_TSDEVICE=/dev/ttyO3
+export QWS_MOUSE_PROTO=Tslib:/dev/ttyO3
+/usr/local/TS-990/bin/qt/MainDisplay -qws -display VNC:powervr: &
+echo "done"

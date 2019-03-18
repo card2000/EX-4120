@@ -1,0 +1,1 @@
+update-alternatives --remove opkg /usr/bin/opkg-cl

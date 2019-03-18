@@ -1,0 +1,13 @@
+Package: dosfstools
+Version: 2.11-r2.6
+Description: DOS FAT Filesystem Utilities
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: dosfstools
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/dosfstools-2.11.src.tar.gz file://alignment_hack.patch file://msdos_fat12_undefined.patch file://include-linux-types.patch

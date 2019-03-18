@@ -1,0 +1,13 @@
+Package: gawk
+Version: 3.1.4-r4.6
+Description: A program that you can use to select particular records in a file and perform operations upon them.
+Section: interpreters
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPL
+Architecture: armv7a
+OE: gawk
+Homepage: unknown
+Build: master/fea3a19
+Depends: gawk-common, libc6 (>= 2.12.2)
+Source: ftp://ftp.gnu.org/gnu/gawk/gawk-3.1.4.tar.gz

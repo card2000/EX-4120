@@ -1,0 +1,14 @@
+Package: util-linux-ng-sfdisk
+Version: 2.17-r36-arago1.6
+Description: Util-linux-ng is a suite of essential utilities for any Linux system.
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: util-linux-ng
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Provides: util-linux-sfdisk
+Source: http://kernel.org/pub/linux/utils/util-linux-ng/v2.17/util-linux-ng-2.17-arago1.tar.bz2;name=archive file://uclibc-compile.patch file://util-linux-ng-replace-siginterrupt.patch file://fdiskbsdlabel.h-nios2.patch file://uclibc-nolargefile.patch

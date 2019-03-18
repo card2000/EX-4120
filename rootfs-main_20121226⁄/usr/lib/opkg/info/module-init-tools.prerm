@@ -1,0 +1,7 @@
+#!/bin/sh
+for f in sbin/insmod sbin/modprobe sbin/rmmod sbin/modinfo; do
+bn=`basename $f`
+   update-alternatives --remove $bn /$f.26
+done
+update-alternatives --remove bin-lsmod /bin/lsmod.26
+update-alternatives --remove lsmod /bin/lsmod.26

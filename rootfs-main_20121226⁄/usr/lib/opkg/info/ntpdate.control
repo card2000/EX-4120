@@ -1,0 +1,13 @@
+Package: ntpdate
+Version: 4.2.6p3-r1.6
+Description: The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.
+Section: console/network
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: ntp
+Architecture: armv7a
+OE: ntp
+Homepage: http://ntp.isc.org/bin/view/Main/WebHome
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2), libcap2 (>= 2.20)
+Source: http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.6p3.tar.gz file://tickadj.c.patch file://ntp-4.2.4_p6-nano.patch file://ntpd file://ntp.conf file://ntpdate

@@ -1,0 +1,3 @@
+/usr/bin/awk
+../../bin/busybox 50
+gawk 100

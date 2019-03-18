@@ -1,0 +1,2 @@
+#!/bin/sh
+update-alternatives --remove makedevs /sbin/makedevs.makedevs

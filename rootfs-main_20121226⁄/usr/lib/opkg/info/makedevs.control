@@ -1,0 +1,13 @@
+Package: makedevs
+Version: 1.0.0-r10.6
+Description: A tool to make device nodes
+Section: base
+Priority: required
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPL
+Architecture: armv7a
+OE: makedevs
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: file://makedevs.c

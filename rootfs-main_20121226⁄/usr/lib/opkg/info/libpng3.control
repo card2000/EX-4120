@@ -1,0 +1,14 @@
+Package: libpng3
+Version: 1.2.44-r3.0.6
+Description: PNG Library
+Section: libs
+Priority: required
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: libpng
+Architecture: armv7a
+OE: libpng
+Homepage: http://www.libpng.org/
+Build: master/fea3a19
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.12.2)
+Provides: libpng3
+Source: ftp://ftp.simplesystems.org/pub/png/src/libpng-1.2.44.tar.bz2;name=libpng file://makefile_fix.patch

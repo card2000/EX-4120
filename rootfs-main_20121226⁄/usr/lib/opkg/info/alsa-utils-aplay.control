@@ -1,0 +1,13 @@
+Package: alsa-utils-aplay
+Version: 1.0.24.2-r0-arago1.6
+Description: play (and record) sound files via ALSA
+Section: console/utils
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2), libasound2 (>= 1.0.24.1)
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.24.2.tar.bz2 file://remove-xmlto.patch file://alsa-aplay-interactive-patch.diff

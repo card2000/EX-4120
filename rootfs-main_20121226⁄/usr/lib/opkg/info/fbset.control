@@ -1,0 +1,14 @@
+Package: fbset
+Version: 2.1-r4.6
+Description: The fbset console tool
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv2
+Architecture: armv7a
+OE: fbset
+Homepage: unknown
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Recommends: fbset-modes
+Source: http://ftp.debian.org/debian/pool/main/f/fbset/fbset_2.1.orig.tar.gz file://makefile.patch

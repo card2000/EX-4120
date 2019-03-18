@@ -1,0 +1,12 @@
+Package: opkg-collateral
+Version: 1.0-r3.6
+Description: opkg configuration files
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: MIT
+Architecture: all
+OE: opkg-collateral
+Homepage: unknown
+Build: master/fea3a19
+Source: file://opkg.conf.comments file://lists file://dest file://tmp_dir file://src

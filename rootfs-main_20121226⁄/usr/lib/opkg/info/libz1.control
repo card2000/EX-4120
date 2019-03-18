@@ -1,0 +1,13 @@
+Package: libz1
+Version: 1.2.3-r7.0.6
+Description: Zlib Compression Library
+Section: libs
+Priority: required
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: zlib
+Architecture: armv7a
+OE: zlib
+Homepage: http://www.gzip.org/zlib/
+Build: master/fea3a19
+Depends: libc6 (>= 2.12.2)
+Source: http://www.zlib.net/zlib-1.2.3.tar.bz2 file://visibility.patch file://autotools.patch

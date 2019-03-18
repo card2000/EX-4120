@@ -1,0 +1,7 @@
+#!/bin/sh
+for f in sbin/insmod sbin/modprobe sbin/rmmod sbin/modinfo; do
+bn=`basename $f`
+   update-alternatives --install /$f $bn /$f.26 60
+done
+update-alternatives --install /bin/lsmod bin-lsmod /bin/lsmod.26 60
+update-alternatives --install /sbin/lsmod lsmod /bin/lsmod.26 60

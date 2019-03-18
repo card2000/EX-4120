@@ -1,0 +1,11 @@
+#!/bin/sh
+
+fbsplash -s /boot/fbsplash/fbsplash.ppm -i /boot/fbsplash/fbsplash.cfg -f /boot/fbsplash/fbsplash &
+sleep 1
+if test -e /usr/local/TS-990/bin/screen/SETUP;
+then
+	cat /usr/local/TS-990/bin/screen/pwron.800x600.default.screen > /dev/fb0
+else
+	cat /usr/local/TS-990/bin/screen/pwron.800x600.message.screen > /dev/fb0
+fi
+
