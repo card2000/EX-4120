@@ -7,7 +7,7 @@ Kenwood Firmware Update file unpacker for HamRadio TS-990S and TS-890.
 
 Unzip TS-XXX_VXXX.zip, unpack with provided code or drag TS-XXX_VXXX.dat file to kenwood_unpack_TS-990_TS-890.exe, unzip created .zip file, untar xxxx.tar.gz file.
 
-Make sure you do not modify or redistribute applications : MainDisplay, UpdateMain, rem_mai.main, sys_man.main as only these files are copyrighted by JVCKenwood, all other files are GNU GPL/LGPL and you can free modify it and redistribute acording to GNU General Public License.
+
 
 
 
