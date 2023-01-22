@@ -8,10 +8,4 @@ If not, see https://www.gnu.org/licenses/.
 
 Hamradio TS-990 and TS-890 USB firmware unpacker and packer. Dejan Nadarevic - 9A1AD
 
-Make sure you do not modify or redistribute applications : 
-    MainDisplay, 
-    UpdateMain, 
-    rem_mai.main, 
-    sys_man.main as only these files are maybee copyrighted by JVCKenwood, 
-    all other files are GNU GPL/LGPL and you can free modify it and redistribute acording to GNU General Public License.
 
